@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main
+{
+    height: 100vh;
+    background: url("/pexels-fernando-makoto-1429567.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.overlay
+{
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+}
+.text
+{
+    font-size: 1.8rem;
+    /* border: 2px red solid; */
+}
+#end-date
+{
+    font-size: 1.2rem;
+    margin: 0.5em 0;
+    font-style: italic;
+            
+    /* border: 2px red solid; */
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin:7em 0;
+    /* border: 2px red solid; */
+}
+
+
+input
+{
+    width: 4rem;
+    height: 3.4rem;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.541);
+    margin: 0.3em;
+    padding: 0.2em;
+    outline: none;
+    border: none;
+    box-shadow: 20px;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}   
